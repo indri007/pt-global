@@ -1,8 +1,70 @@
+# ─────────────────────────────────────────────
+# Python Bytecode & Cache
+# ─────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
 .pytest_cache/
 .coverage
 htmlcov/
-*.log
+.cache/
+
+# ─────────────────────────────────────────────
+# SECRETS, API KEYS, TOKENS & CREDENTIALS (STRICT)
+# ─────────────────────────────────────────────
+.env
+.env.*
+*.env
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+*secret*
+*secrets*
+*credential*
+*credentials*
+*token*
+*tokens*
+*apikey*
+*api_key*
+ghp_*
+gho_*
+ghu_*
+ghs_*
+ghr_*
+service_account*.json
+client_secret*.json
+google-credentials*.json
+auth*.json
+
+# Allow example config templates
+!.streamlit/secrets.toml.example
+!*.example
+
+# ─────────────────────────────────────────────
+# Operating System & IDE
+# ─────────────────────────────────────────────
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# ─────────────────────────────────────────────
+# Virtual Environments & Logs
+# ─────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+*.log

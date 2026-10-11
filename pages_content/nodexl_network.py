@@ -1,8 +1,19 @@
+import os
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-NODEXL_CLOUD_TOKEN = "c1d8d71236e1cae9628f0b5c7a55b581"
+DEFAULT_NODEXL_TOKEN = "c1d8d71236e1cae9628f0b5c7a55b581"
+
+def get_nodexl_token() -> str:
+    try:
+        if hasattr(st, "secrets") and "NODEXL_CLOUD_TOKEN" in st.secrets:
+            return st.secrets["NODEXL_CLOUD_TOKEN"]
+    except Exception:
+        pass
+    return os.environ.get("NODEXL_CLOUD_TOKEN", DEFAULT_NODEXL_TOKEN)
+
+NODEXL_CLOUD_TOKEN = get_nodexl_token()
 NODEXL_GALLERY_URL = f"https://www.nodexlgraphgallery.org/Pages/Cloud.aspx?token={NODEXL_CLOUD_TOKEN}"
 
 def render_nodexl_network():
