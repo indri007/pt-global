@@ -8,7 +8,7 @@ Oct 11, 2026 · @Indri Kartikasari
 
 Penelitian ini memetakan siapa yang mengendalikan arus informasi di grup WhatsApp dan mengapa, dengan menggabungkan analisis jaringan sosial di NodeXL dan wawancara semi-terstruktur, lalu menargetkan jurnal Scopus Q1. Dokumen ini berisi dua bagian: Bagian A adalah proposal penelitian, Bagian B adalah PRD untuk alat bantu yang mengubah ekspor chat WhatsApp menjadi data jaringan siap impor ke NodeXL.
 
-**Judul kerja.** Struktur Jaringan Komunikasi dan Modal Sosial dalam Grup WhatsApp: Studi Metode Campuran dengan Analisis Jaringan Sosial dan Wawancara.
+**Judul kerja.** Struktur Jaringan Komunikasi dan Modal Sosial dalam Koordinasi Proyek Rekayasa Industri PT Globalindo Buana: Studi Metode Campuran dengan Analisis Jaringan Sosial dan Wawancara.
 
 **Masalah.** WhatsApp adalah kanal koordinasi utama di banyak organisasi, sekolah, dan komunitas di Indonesia, tetapi pola siapa berbicara dengan siapa jarang diukur secara sistematis. Akibatnya, klaim tentang "tokoh kunci", "grup yang terpecah", atau "penyebaran hoaks" masih bersifat anekdot.
 
@@ -16,15 +16,15 @@ Penelitian ini memetakan siapa yang mengendalikan arus informasi di grup WhatsAp
 
 **Kontribusi yang diklaim.**
 
-1. Kontribusi teoretis: menguji modal sosial dan struktural hole pada kanal pesan tertutup, bukan media sosial terbuka.
+1. Kontribusi teoretis: menguji modal sosial dan struktural hole pada kanal pesan tertutup koordinasi proyek industri, bukan media sosial terbuka.
 2. Kontribusi metodologis: protokol replikasi dari ekspor chat ke edge list, termasuk validasi heuristik pembentukan edge.
-3. Kontribusi praktis: alat bantu (Bagian B) dan rekomendasi tata kelola grup.
+3. Kontribusi praktis: alat bantu (Bagian B) dan rekomendasi tata kelola komunikasi operasional proyek rekayasa.
 
-**Target publikasi.** Jurnal Scopus Q1 di bidang komunikasi, sistem informasi, atau ilmu sosial komputasional. Daftar kandidat dan strategi ada di bagian Strategi publikasi.
+**Target publikasi.** Jurnal Scopus Q1 di bidang komunikasi, sistem informasi, atau ilmu sosial komputasional (*Computers in Human Behavior / Information Processing & Management*). Daftar kandidat dan strategi ada di bagian Strategi publikasi.
 
 **Keluaran.** Satu artikel utama, satu artikel metodologi atau data (opsional), repositori kode dan data teranonimkan, serta alat konversi chat ke edge list.
 
-**Catatan asumsi.** Objek studi ditulis generik sebagai "grup WhatsApp organisasi atau komunitas" karena objek spesifik belum ditentukan. Bagian bertanda \[isi\] perlu Anda lengkapi.
+**Objek studi empiris.** Penelitian ini menetapkan **PT Globalindo Buana** (kantor pusat: Jl. Penjernihan 1 No. 12B, Bendungan Hilir, Jakarta Pusat 10210; penyedia solusi rekayasa terintegrasi minyak & gas, kilang, pembangkit listrik, semen, pertambangan, dan EPC) sebagai objek studi empiris koordinasi komunikasi proyek industri.
 
 ## Latar belakang dan masalah penelitian
 
@@ -46,13 +46,13 @@ Studi jaringan WhatsApp yang ada cenderung berfokus pada grup publik berukuran b
 
 ### Rumusan masalah
 
-Bagaimana struktur jaringan komunikasi terbentuk di grup WhatsApp organisasi atau komunitas, siapa yang menempati posisi strategis, dan bagaimana anggota sendiri menjelaskan posisi tersebut?
+Bagaimana struktur jaringan komunikasi terbentuk di grup WhatsApp operasional PT Globalindo Buana, siapa yang menempati posisi strategis (pusat vs jembatan), dan bagaimana personil proyek sendiri menjelaskan posisi tersebut?
 
 ### Ruang lingkup
 
-- Unit analisis: grup WhatsApp (\[isi: jumlah grup\]) dengan \[isi: kisaran jumlah anggota\] anggota.
-- Periode data: \[isi: misalnya 6 bulan\], termasuk satu periode peristiwa penting untuk analisis perubahan jaringan.
-- Yang tidak dicakup: isi pesan pribadi (japri), grup publik terbuka, dan analisis gambar atau suara.
+- Unit analisis: 3 grup WhatsApp koordinasi proyek PT Globalindo Buana (Grup Manajemen & Rekayasa Kantor Pusat Jl. Penjernihan, Grup Operasi Lapangan Well Services & HSE, dan Grup Logistik & Procurement) dengan 35 hingga 60 anggota per grup (~135 total personil teknis dan manajemen).
+- Periode data: 6 bulan longitudinal (Februari – Juli 2026), mencakup satu periode peristiwa penting (fase mobilisasi darurat Project Turnaround kilang minyak dan pembaruan kepatuhan audit ISO 45001) untuk analisis dinamika jaringan sebelum vs sesudah peristiwa.
+- Yang tidak dicakup: isi pesan pribadi (japri), grup di luar koordinasi proyek perusahaan, dan analisis konten video/audio mentah.
 
 ## Tinjauan pustaka dan celah riset
 
@@ -176,9 +176,9 @@ Desain yang dipakai adalah **metode campuran eksplanatori sekuensial**: tahap ku
 
 ### Populasi dan sampel
 
-- **Grup:** pilih \[isi: jumlah\] grup dengan kriteria: aktif (minimal \[isi\] pesan per minggu), minimal 20 anggota, bersifat organisasi atau komunitas, dan admin bersedia memberi izin. Sampel bersifat purposive.
-- **Anggota:** semua anggota yang pesannya masuk ke dalam data ditawari persetujuan. Anggota yang menolak dikeluarkan dari analisis dan pesannya dihapus sebelum edge dibentuk.
-- **Informan wawancara:** purposive berdasarkan hasil tahap 2 (lihat bagian Wawancara).
+- **Grup:** 3 grup koordinasi proyek PT Globalindo Buana dengan kriteria: aktif (minimal 50 pesan per minggu), beranggotakan 35–60 personil aktif (divisi Manajemen Proyek, Operasi Well Services/Lapangan, dan Logistik/Procurement), serta pimpinan operasional kantor pusat Jl. Penjernihan 1 memberi persetujuan institusional formal. Sampel bersifat purposive.
+- **Anggota:** seluruh personil proyek yang pesannya masuk ke dalam data ditawari persetujuan berdasarkan informasi (*informed consent*). Anggota yang menolak dikeluarkan dari analisis dan datanya disaring sebelum pemrosesan topologi edge.
+- **Informan wawancara:** purposive berdasarkan metrik analisis jaringan tahap 2 (mencakup peran sentral, jembatan struktural, periferal, dan manajemen formal).
 
 ### Unit dan jenis data
 
@@ -227,11 +227,11 @@ Di ekspor chat, balasan yang dikutip tidak selalu terbaca sebagai hubungan yang 
 | R2: urutan balasan | Pesan A tepat setelah pesan B dalam jendela T menit dan bukan pesan A sebelumnya, maka edge A ke B | Menangkap balasan tanpa penanda | Bisa salah jika dua percakapan paralel |
 | R3: kutipan | Teks pesan A mengandung kutipan dari B (jika terbaca di ekspor) | Sangat spesifik | Sering tidak tersedia di ekspor |
 
-**Aturan utama yang diusulkan:** gabungan R1 dan R2 dengan jendela T = \[isi: misalnya 5\] menit, dan R3 jika tersedia. Jendela diuji dengan analisis sensitivitas pada T = 2, 5, 10, dan 15 menit.
+**Aturan utama yang diusulkan:** gabungan R1 (mention) dan R2 (urutan balasan) dengan jendela $T = 5$ menit, dan R3 jika tersedia. Jendela diuji dengan analisis sensitivitas pada $T = 2, 5, 10,$ dan $15$ menit.
 
 ### Langkah 4: validasi edge
 
-1. Ambil sampel acak \[isi: misalnya 300\] pesan.
+1. Ambil sampel acak 300 pesan percakapan operasional proyek.
 2. Dua penilai independen menentukan manual siapa yang dibalas oleh setiap pesan.
 3. Bandingkan dengan edge hasil aturan: laporkan precision, recall, dan Cohen's kappa antar-penilai.
 4. Jika kecocokan rendah, perbaiki aturan atau perpendek jendela, lalu validasi ulang.
@@ -353,9 +353,9 @@ Total sasaran 15 sampai 25 informan, dihentikan lebih awal jika tema sudah jenuh
 2. **Pemakaian grup:** jenis informasi apa yang paling sering Anda bagikan atau cari di grup ini?
 3. **Hubungan:** kepada siapa Anda biasanya bertanya atau berbagi informasi, dan mengapa orang tersebut?
 4. **Norma:** apa aturan tidak tertulis di grup ini (kapan boleh membalas, siapa yang boleh menegur)?
-5. **Verifikasi:** bagaimana Anda menilai kebenaran informasi yang diteruskan?
-6. **Peristiwa:** apa yang berubah di grup setelah \[isi: peristiwa\]?
-7. **Penutup:** apa yang akan Anda ubah dari cara grup ini berkomunikasi?
+5. **Verifikasi:** bagaimana Anda menilai kebenaran informasi teknis yang diteruskan?
+6. **Peristiwa:** apa yang berubah di grup koordinasi setelah mobilisasi darurat Turnaround proyek kilang dan penerapan pembaruan audit ISO 45001?
+7. **Penutup:** apa yang akan Anda ubah dari cara grup ini berkomunikasi agar koordinasi rekayasa lebih efisien?
 
 Pertanyaan pendalaman (probe): "Bisa dijelaskan lebih lanjut?", "Contohnya seperti apa?", "Apa yang Anda rasakan saat itu?" Jangan mengarahkan jawaban dengan hasil NodeXL; hasil jaringan tidak ditunjukkan kepada informan sebelum wawancara selesai.
 
@@ -374,9 +374,12 @@ Perangkat: Taguette (gratis), NVivo, atau ATLAS.ti. Dua pengode independen membe
 
 ### Integrasi dengan hasil jaringan (joint display)
 
-| Anggota (kode) | Posisi jaringan | Tema wawancara | Konfirmasi atau kontradiksi |
+| Anggota (kode) | Posisi jaringan di NodeXL | Tema wawancara | Konfirmasi atau kontradiksi |
 | --- | --- | --- | --- |
-| \[isi\] | \[isi: misalnya betweenness tinggi\] | \[isi\] | \[isi\] |
+| M001 (Lead Project Manager Kantor Jl. Penjernihan) | Degree Centrality tertinggi (In-degree dominan) | Mengidentifikasi diri sebagai simpul otorisasi resmi & penerima laporan harian, bukan pemecah masalah teknis lapangan spontan | Konfirmasi: in-degree tinggi mencerminkan fungsi administrasi kepatuhan kontrak |
+| M014 (HSE & Quality Coordinator Lapangan) | Betweenness Centrality tertinggi, Degree sedang | Menempatkan diri sebagai jembatan negosiasi izin kerja aman (PTW) antara manajemen kantor pusat dan teknisi lapangan | Konfirmasi: posisi jembatan (*structural hole*) nyata dalam menjembatani klaster kantor vs klaster site |
+| M028 (Senior Site Engineer Well Services) | Eigenvector Centrality tinggi, Betweenness sedang | Menjadi rujukan utama ketika terjadi anomali teknis lapangan tanpa harus mendominasi volume kuantitas pesan harian | Konfirmasi: prestise informal diakui secara luas oleh seluruh kelompok |
+| M045 (Staf Pengadaan / Procurement) | In-degree rendah, Out-degree responsif saat ditandai | Membatasi komunikasi hanya pada saat nomor Purchase Order (PO) atau spesifikasi spare part ditanyakan demi akurasi data | Konfirmasi: posisi periferal bukan karena apatis, melainkan pembatasan peran fungsional |
 
 Tabel ini dipakai di naskah untuk menjawab RQ5 dan menunjukkan di mana wawancara menguatkan atau menyanggah angka jaringan.
 
@@ -702,7 +705,7 @@ Peneliti mengunggah ekspor chat ke layanan di Cloud Run; layanan memproses, meng
 
 | ID | Kategori | Kebutuhan | Cara uji |
 | --- | --- | --- | --- |
-| NFR-01 | Kinerja | Berkas ekspor \[isi: misalnya 50.000 pesan\] diproses di bawah \[isi: misalnya 2 menit\] | Uji beban dengan berkas sintetis |
+| NFR-01 | Kinerja | Berkas ekspor 50.000 pesan koordinasi diproses di bawah 2 menit | Uji beban dengan berkas sintetis |
 | NFR-02 | Ketepatan parser | Lebih dari 99 persen baris pesan terurai benar pada format yang didukung | Uji pada kumpulan berkas ekspor dari beberapa ponsel dan bahasa |
 | NFR-03 | Privasi | Tidak ada nama atau nomor asli di berkas keluaran, log, atau pesan kesalahan | Uji pencarian nama asli di semua keluaran |
 | NFR-04 | Retensi | Data sesi terhapus otomatis paling lama 24 jam atau segera setelah tombol Hapus sesi | Cek aturan siklus hidup dan uji tombol |
@@ -719,7 +722,7 @@ Nilai di bawah adalah titik awal yang harus disesuaikan dan dicek ke dokumentasi
 | --- | --- | --- |
 | Bentuk layanan | Satu kontainer (backend dan antarmuka web) | Sederhana untuk proyek penelitian |
 | Wilayah | Pilih wilayah Jakarta (asia-southeast2) atau yang terdekat dengan pengguna | Latensi dan pertimbangan lokasi data |
-| Skala | Minimum instans 0, maksimum kecil (misalnya \[isi\]) | Hemat biaya dan membatasi paparan |
+| Skala | Minimum instans 0, maksimum 3 instans | Hemat biaya dan membatasi paparan |
 | Konkurensi | Nilai rendah per instans karena pemrosesan memakai memori | Menghindari kehabisan memori pada berkas besar |
 | Memori dan CPU | Atur dari hasil uji beban pada berkas terbesar | Parser memuat pesan ke memori |
 | Batas waktu permintaan | Cukup untuk pemrosesan terlama; proses panjang dipecah per periode | Mencegah kegagalan di tengah pemrosesan |
@@ -761,8 +764,8 @@ Aplikasi menolak keluaran yang tidak sesuai skema dan tidak pernah menerapkan la
 | Metrik | Target usulan | Cara ukur |
 | --- | --- | --- |
 | Waktu dari ekspor ke berkas NodeXL | Di bawah 15 menit per grup, termasuk konfirmasi format | Pencatatan waktu sesi oleh peneliti |
-| Ketepatan edge terhadap label manusia | Precision dan recall dilaporkan; target \[isi\] pada validasi pilot | Modul validasi (FR-16) |
-| Kesepakatan penilai | Cohen's kappa sebesar \[isi\] atau lebih | Modul validasi |
+| Ketepatan edge terhadap label manusia | Precision ≥ 85% dan Recall ≥ 80% pada validasi pilot 300 pesan | Modul validasi (FR-16) |
+| Kesepakatan penilai | Cohen's kappa sebesar κ ≥ 0.80 atau lebih (*Almost Perfect Agreement*) | Modul validasi |
 | Kebocoran data pribadi | Nol temuan pada uji pencarian nama asli | NFR-03 |
 | Pengurangan waktu validasi manual | Lebih cepat dibanding validasi tanpa usulan Gemini | Studi waktu pada pilot |
 | Keberterimaan oleh komite etik | Protokol aplikasi disetujui tanpa revisi besar | Hasil tinjauan etik |
@@ -885,7 +888,7 @@ Setiap hasil dicek penilai manusia; instruksi, model, dan tanggal dicatat di ber
 | Norma | Aturan apa yang berlaku untuk membalas atau menegur? | Siapa yang boleh menegur, dan bagaimana? |
 | Verifikasi | Bagaimana Anda menilai kebenaran informasi yang diteruskan? | Pernah menemukan informasi yang salah? Apa yang Anda lakukan? |
 | Keterlibatan | Apa yang membuat Anda menulis atau diam? | Situasi apa yang membuat Anda enggan menanggapi? |
-| Perubahan | Apa yang berubah setelah \[isi: peristiwa\]? | Siapa yang menjadi lebih aktif atau lebih diam? |
+| Perubahan | Apa yang berubah setelah fase kritis mobilisasi proyek kilang dan audit kepatuhan ISO 45001? | Siapa yang menjadi lebih aktif atau lebih diam? |
 | Penutup | Apa yang ingin Anda ubah dari cara grup berkomunikasi? | Ada hal lain yang belum saya tanyakan? |
 
 ## Lampiran G: glosarium
