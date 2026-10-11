@@ -15,5 +15,15 @@ class TestNodeXLPage(unittest.TestCase):
     def test_callable(self):
         self.assertTrue(callable(render_nodexl_network))
 
+    def test_top_10_actors_data(self):
+        from pages_content.nodexl_network import get_top_10_actors
+        df = get_top_10_actors()
+        self.assertEqual(len(df), 10, "Must return exactly top 10 actors")
+        self.assertIn("Peran Operasional", df.columns)
+        self.assertIn("Betweenness Centrality", df.columns)
+        self.assertIn("In-Degree", df.columns)
+        self.assertIn("Out-Degree", df.columns)
+        self.assertIn("Klaster Komunitas", df.columns)
+
 if __name__ == "__main__":
     unittest.main()
