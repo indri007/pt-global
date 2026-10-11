@@ -1,4 +1,5 @@
 import streamlit as st
+from datetime import datetime
 import json
 from pathlib import Path
 
@@ -45,19 +46,19 @@ def main():
         st.markdown("---")
         st.caption("📞 Hotline: `021-2524915`")
         st.caption("✉️ `marketing@globalbuana.com`")
-        st.caption("© 2025 PT. Globalindo Buana | WebNesia")
 
     # Render selected page
     page_title, renderer_func = PAGES[selected_key]
     renderer_func()
 
     # Footer
+    current_year = datetime.now().year
     st.markdown("---")
     st.markdown(
-        "<div style='text-align: center; color: #64748b; font-size: 13px; padding: 12px;'>"
-        "© Copyright 2025 PT. Globalindo Buana. All Right Reserved | Dev by WebNesia<br>"
-        "Kantor Pusat: Jl. Penjernihan 1 No. 12B, Bendungan Hilir, Tanah Abang, Jakarta Pusat 10210"
-        "</div>",
+        f"<div style='text-align: center; color: #64748b; font-size: 13px; padding: 12px;'>"
+        f"© Copyright {current_year} PT. Globalindo Buana. All Right Reserved | Dev by WebNesia<br>"
+        f"Kantor Pusat: Jl. Penjernihan 1 No. 12B, Bendungan Hilir, Tanah Abang, Jakarta Pusat 10210"
+        f"</div>",
         unsafe_allow_html=True
     )
 
