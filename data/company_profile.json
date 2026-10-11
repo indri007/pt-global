@@ -1,0 +1,29 @@
+{
+  "name": "PT. Globalindo Buana",
+  "tagline": "Integrated Industrial & Engineering Solutions",
+  "address": "Jl. Penjernihan 1 No. 12B, RT.9/RW.6, Bendungan Hilir, Kecamatan Tanah Abang, Kota Jakarta Pusat, DKI Jakarta",
+  "postal_code": "10210",
+  "phone": "021-2524915",
+  "email": "marketing@globalbuana.com",
+  "website": "https://globalbuana.com",
+  "copyright": "© Copyright 2025 PT. Globalindo Buana. All Right Reserved | Dev by WebNesia",
+  "social_media": {
+    "facebook": "https://facebook.com",
+    "instagram": "https://instagram.com",
+    "linkedin": "https://linkedin.com",
+    "youtube": "https://youtube.com"
+  },
+  "vision": "Menjadi mitra rekayasa industri terpadu dan pemeliharaan strategis terkemuka di Indonesia yang diakui atas keunggulan teknis, ketepatan solusi, dan kepatuhan keselamatan kelas dunia.",
+  "mission": [
+    "Menyediakan solusi rekayasa, well services, dan pemeliharaan industri dengan standar kualitas tertinggi.",
+    "Mengutamakan keselamatan kerja (Target Zero Incident) dan kelestarian lingkungan dalam setiap proyek.",
+    "Membangun hubungan kemitraan jangka panjang berlandaskan integritas, transparansi, dan kepuasan pelanggan.",
+    "Mengembangkan kapabilitas sumber daya manusia rekayasa nasional yang kompeten dan tersertifikasi."
+  ],
+  "core_values": [
+    {"name": "Safety First", "desc": "Keselamatan kerja tanpa kompromi pada setiap tahapan operasi."},
+    {"name": "Engineering Excellence", "desc": "Presisi rekayasa dan teknologi terkini untuk kehandalan fasilitas industri."},
+    {"name": "Integrity", "desc": "Kejujuran dan etika profesional tertinggi dalam setiap komitmen bisnis."},
+    {"name": "Customer Partnership", "desc": "Dedikasi penuh untuk nilai tambah dan kelancaran operasi klien."}
+  ]
+}

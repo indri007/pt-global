@@ -1,0 +1,100 @@
+[
+  {
+    "id": "oil-gas",
+    "title": "Minyak & Gas (Well Services & Intervention)",
+    "category": "Upstream & Downstream",
+    "icon": "🛢️",
+    "description": "Layanan pemeliharaan sumur minyak dan gas darat maupun lepas pantai terpadu untuk memastikan kontinuitas produksi.",
+    "capabilities": [
+      "Wellhead Maintenance & Pressure Testing",
+      "Slickline & Wireline Operations",
+      "High Pressure Chemical Pumping",
+      "Well Control Equipment Inspection",
+      "Valve Maintenance & In-situ Lubrication"
+    ]
+  },
+  {
+    "id": "refinery",
+    "title": "Kilang Minyak & Petrokimia",
+    "category": "Processing Facility",
+    "icon": "🏭",
+    "description": "Dukungan turnaround komprehensif, overhauling alat penukar panas, dan fabrikasi jalur pipa berstandar tinggi.",
+    "capabilities": [
+      "Refinery Plant Turnaround Support",
+      "Heat Exchanger Cleaning & Retubing",
+      "Pressure Vessel Inspection & Repair",
+      "Specialized High-Pressure Piping Fabrication",
+      "Storage Tank Maintenance & NDT Inspection"
+    ]
+  },
+  {
+    "id": "power",
+    "title": "Pembangkit Listrik (Power Generation)",
+    "category": "Energy Infrastructure",
+    "icon": "⚡",
+    "description": "Solusi pemeliharaan turbin uap/gas, boiler pembangkit, dan sistem instrumentasi kelistrikan tegangan tinggi.",
+    "capabilities": [
+      "Turbine Major & Minor Overhaul",
+      "Boiler Tube Inspection & Refractory Repair",
+      "Balance of Plant (BOP) Maintenance",
+      "Transformer & Switchgear Diagnostic Support",
+      "Vibration Analysis & Rotating Equipment Balancing"
+    ]
+  },
+  {
+    "id": "cement",
+    "title": "Industri Semen",
+    "category": "Heavy Manufacturing",
+    "icon": "🏗️",
+    "description": "Pemeliharaan mesin berat rotari kiln, raw mill, dan sistem konveyor penanganan material curah.",
+    "capabilities": [
+      "Rotary Kiln Alignment & Tyre Maintenance",
+      "Ball Mill & Vertical Roller Mill Overhaul",
+      "Heavy Material Handling Conveyor Maintenance",
+      "Baghouse Filter & Dust Collector Optimization",
+      "Dynamic Balancing of Heavy Industrial Fans"
+    ]
+  },
+  {
+    "id": "mining",
+    "title": "Pertambangan (Mining Industry)",
+    "category": "Mineral Processing",
+    "icon": "⛏️",
+    "description": "Layanan pemeliharaan fasilitas pemrosesan mineral, peremuk batuan (crusher), dan sistem pemipaan bubur bijih.",
+    "capabilities": [
+      "Primary & Secondary Crusher Overhaul",
+      "Slurry Pipeline Installation & Wear Lining",
+      "Flotation Cell & Agitator Maintenance",
+      "Heavy Mechanical Structural Repair",
+      "Heavy Equipment Hydraulic Line Maintenance"
+    ]
+  },
+  {
+    "id": "aviation",
+    "title": "Penerbangan (Aviation Support)",
+    "category": "Aviation Infrastructure",
+    "icon": "✈️",
+    "description": "Sistem infrastruktur penanganan bahan bakar avtur dan peralatan pendukung darat bandar udara.",
+    "capabilities": [
+      "Aviation Fuel Hydrant System Maintenance",
+      "Filtration & Water Separation Calibration",
+      "Fuel Storage Tank Cleaning & Quality Compliance",
+      "Ground Support Equipment (GSE) Mechanical Servicing",
+      "Safety Emergency Shutdown System Testing"
+    ]
+  },
+  {
+    "id": "epc",
+    "title": "EPC & Maintenance Terintegrasi",
+    "category": "Turnkey Engineering",
+    "icon": "📐",
+    "description": "Solusi rekayasa menyeluruh mulai dari studi kelayakan, pengadaan material bersertifikat, hingga konstruksi dan kontrak pemeliharaan jangka panjang.",
+    "capabilities": [
+      "Detail Engineering Design (Mechanical & Piping)",
+      "Certified Procurement & Supply Chain Sourcing",
+      "On-site Mechanical & Civil Construction",
+      "Pre-Commissioning & Commissioning Support",
+      "Comprehensive Long-term Maintenance Contracts (LTM)"
+    ]
+  }
+]
