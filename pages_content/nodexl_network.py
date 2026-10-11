@@ -293,7 +293,7 @@ def render_nodexl_network():
     Modul ini mengintegrasikan **Proposal Penelitian dan PRD Analisis Jaringan WhatsApp dengan NodeXL** yang tersimpan di repositori ini dengan platform analisis graf **NodeXL Pro Graph Gallery Cloud**.
     """)
 
-    st.info(f"🔗 **Tautan Cloud Graph Gallery:** [{NODEXL_GALLERY_URL}]({NODEXL_GALLERY_URL})")
+    st.info(f"🔗 **Tautan Cloud Graph Gallery:** [Buka Visualisasi NodeXL Pro Cloud Gallery]({NODEXL_GALLERY_URL})")
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:

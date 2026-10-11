@@ -29,7 +29,7 @@ Portal korporat interaktif dan pusat intelegensi jaringan untuk **PT. Globalindo
 5. 💼 **Portfolio:** Riwayat penanganan proyek rekayasa dan pemeliharaan industri strategis dengan catatan Zero LTI.
 6. ⚡ **Safety Moment:** Edukasi keselamatan kerja harian dan evaluasi matriks risiko 5x5 interaktif.
 7. 📍 **Contact Us & Google Maps:** Formulir kontak interaktif tervalidasi dan sematan peta lokasi kantor Jl. Penjernihan 1 Jakarta Pusat.
-8. 🕸️ **NodeXL Network Intelligence:** Dashboard interaktif topologi jaringan komunikasi organisasi dengan integrasi NodeXL Cloud Gallery (`token=c1d8d71236e1cae9628f0b5c7a55b581`).
+8. 🕸️ **NodeXL Network Intelligence:** Dashboard interaktif topologi jaringan komunikasi organisasi dengan integrasi NodeXL Pro Cloud Gallery.
 
 ---
 
